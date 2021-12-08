@@ -1,0 +1,236 @@
+body {
+    background-image: url(wood-2142241_1920.jpg);
+    background-attachment:fixed;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header { 
+    color: black;
+    font-size: 400%;
+    margin: 0%;
+    display: block;
+    width: 80%;
+    padding: 1px;
+    border-radius: 50%;
+    border: 0px black solid;
+    text-align: center;
+    margin-left: 10%;
+    text-decoration: none;   
+}
+footer {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+main {
+    color: black;
+}
+
+.tabI{
+    font-family: cursive;
+    font-size: 200%;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tabR {
+    font-family: cursive;
+    font-size: 175%;
+   
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tabF {
+    font-family: cursive;
+    font-size: 150%;
+
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tabP {
+    font-family: cursive;
+    font-size: 125%;
+    margin: auto;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
+}
+
+.tabIngredientes {
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+
+    color: white;
+    border: solid white; 
+    border-radius: 25%;
+    
+    background-image: url(plant-3603462_640.jpg) ;
+    background-position-x: 390px;
+    background-position-y: 250px;
+    
+    margin: auto;
+    margin-top: 5%;
+    width: 40%;
+    height: 25%;
+    cursor: pointer;   
+}
+
+
+
+.tabReceta {
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    border: solid white; 
+    border-radius: 25%;
+    background-image: url(black-2398956_1280.jpg) ;
+    
+    
+    margin: auto;
+    margin-top: 5%;
+    width: 40%;
+    height: 25%;
+    cursor: pointer;     
+}
+
+.tabPersonal {
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    border: solid white; 
+    border-radius: 25%;
+    background-image: url(man-1292269_640.jpg) ;
+    background-position-x: -10px;
+    background-position-y: 260px;
+    
+    
+    margin: auto;
+    margin-top: 5%;
+    width: 40%;
+    height: 25%;
+    cursor: pointer;     
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    border-spacing: 100px 0px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: 25%;
+    font-size: 200%;
+}
+
+.menuIn {
+    border: black solid 2px;
+    min-width: 150px;
+    max-width: none;
+    border-radius: 25%;
+    padding: 10px;
+    cursor: pointer;
+    background-image: url(wood-2045380_1280.jpg); 
+}
+
+.form {
+    font-family: cursive;
+    font-size: 175%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.form fieldset {
+    width: 50%;
+    border: rgb(71, 71, 71) solid;  
+    margin-bottom: 50px;
+}
+
+.form legend{
+    text-align: center;
+}
+
+.form input, select {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.form textarea {
+    width: 100%;
+    font-size: 75%;
+}
+
+.ingr input{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.fin {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.yo{
+    width: 100%;
+    border: solid black;
+    border-radius: 5%;
+}
+
+.yotd {
+    width: 30%;
+}
+
+.logoMEDIACOV {
+    width: 75px;
+    background-color: black;
+    border-radius: 10%;
+}
+
+fieldset {
+    border-color: black;
+    margin: 10px;
+}
+
+@media screen and (max-width: 950px){
+
+    .menu {
+        border-spacing: 15px 0px;
+        text-align: center;
+        margin: auto;
+        width: 40%;
+        height: 25%;
+        font-size: 200%;
+    }
+
+    .menuIn {
+        font-size: 70%;
+        border: black solid 2px;
+        min-width: 90px;
+        max-width: none;
+        border-radius: 25%;
+        padding: 10px;
+        cursor: pointer;
+        background-image: url(wood-2045380_1280.jpg); 
+    }
+}
+

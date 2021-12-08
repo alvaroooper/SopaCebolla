@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <p>Formulario</p>
+        </header>
+
+        <main>
+            <section>
+                <form method="POST" action="Gracias.html" class="form">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+
+                        <p><label for="nombreApellidos">Nombre y apellidos: </label>
+                            <input type="text" name="nombreApellidos" class="nombreApellidos"></p>
+
+                        <p><label for="telefono">Teléfono: </label>
+                            <input type="tel" name="telefono" class="telefono"></p>
+                        
+                        <p><label for="correo">E-Mail: </label>
+                            <input type="email" name="correo" class="correo" placeholder="tuCorreo@..."></p>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Fecha de realización</legend>
+
+                        <p><label for="dia">Día:</label>
+                            <select name="dia" class="dia">
+                                <option value="--">--</option>
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                           </select></p> 
+                          
+                        <p><label for="mes">Mes:</label>
+                            <input type="month" name="mes" class="mes"></p>
+                        
+                    </fieldset>
+
+                    <fieldset class="ingr">
+                        <legend>¿De qué ingredientes disponía?</legend>
+                        
+                        <p>
+                            <input type="checkbox" name="cebollas"><label for="cebollas">Cebollas</label><br>
+                            <input type="checkbox" name="caldo"><label for="caldo">Caldo</label><br>
+                            <input type="checkbox" name="mantequilla"><label for="mantequilla">Mantequilla</label><br>
+                            <input type="checkbox" name="harina"><label for="harina">Harina</label><br>
+                            <input type="checkbox" name="queso"><label for="queso">Queso</label><br>
+                            <input type="checkbox" name="pan"><label for="pan">Pan</label><br>
+                            <input type="checkbox" name="tomillo"><label for="tomillo">Tomillo</label><br>
+                            <input type="checkbox" name="laurel"><label for="laurel">Laurel</label><br>
+                            <input type="checkbox" name="pimienta"><label for="pimienta">Pimienta</label><br> 
+                        </p>
+                    </fieldset>
+
+                    <fieldset class="ingr">
+                        <legend>Opinión</legend>
+
+                        <p>¿Le ha resultado útil?</p>
+                        <p><input type="radio" name="utilidad" id="nada" value="nada">
+                            <label for="nada">Nada</label></p>   
+                        <p><input type="radio" name="utilidad" id="algo" value="algo">
+                            <label for="algo">Algo</label></p>
+                        <p><input type="radio" name="utilidad" id="mucho" value="mucho">
+                            <label for="mucho">Mucho</label></p>
+                        <lable for="comentario">Comentarios:</lable>
+                        <br>
+                        <textarea name="comentario" id="comentario" rows="4" cols=40 placeholder="Escriba aquí su comentario"></textarea>
+                    </fieldset>
+
+                    <fieldset class="fin">
+                        <p><input type="reset" value="Limpiar">
+                            <input type="submit" value="Enviar"></p>
+                    </fieldset>          
+                </form>                            
+            </section>
+        </main>
+
+        <footer>
+            <table class="menu">
+                <tr>
+                    <td class="menuIn" id="menuIn0" onMouseOver="encimaIn();" onMouseOut="normalIn()" onclick="pagIni()">Inicio</td>
+                    <td class="menuIn" id="menuIn1" onMouseOver="encimaAnt();" onMouseOut="normalAnt()" onclick="pagRec()">Anterior</td>
+                    <td class="menuIn" id="menuIn2" onMouseOver="encimaSig();" onMouseOut="normalSig()" onclick="pagPers()">Siguiente</td>
+                </tr>
+            </table>            
+        </footer>
+    </body>
+    
+</html>
